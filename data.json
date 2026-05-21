@@ -1,1 +1,640 @@
-{"updated":"2026-05-21T13:43:02.950449+00:00","firms":[{"firm":"HHP Associates","states":["FL"],"states_raw":"Florida","reps":[{"name":"Bill Cabral","phone":"813-546-3282","email":null,"territory":null,"raw":"Bill Cabral 813-546-3282"}],"suppliers":["Bud Industries","Bulgin","Marathon Special Products","RCD Components","SolaHD","Standex Electronics","Sunon","United Chemi-Con"]},{"firm":"Conley & Associates","states":["FL"],"states_raw":"Florida","reps":[{"name":"Lisa Dietrich","phone":"407-221-9193","email":null,"territory":null,"raw":"Lisa Dietrich 407-221-9193"}],"suppliers":["Amphenol Industrial","E-Switch","Fair-Rite","MtronPTI","Panasonic","Qualtek","Sensata","TT Electronics"]},{"firm":"CBC Electronics","states":["FL"],"states_raw":"Florida","reps":[{"name":"Chase Caplin","phone":"727-465-4840","email":null,"territory":"West FL","raw":"Chase Caplin 727-465-4840"},{"name":"Shane Recicar","phone":"407-232-4703","email":null,"territory":"North/Central FL","raw":"Shane Recicar 407-232-4703"},{"name":"Troy (via","phone":null,"email":null,"territory":"South FL","raw":"Troy (via Chase/Shane)"}],"suppliers":["Otto","Neutrik","Curtis Industries","Littelfuse"]},{"firm":"ANRO Associates","states":["AL","FL","GA","MS","NC","SC","TN"],"states_raw":"FL, GA, AL, MS, NC, SC, TN","reps":[{"name":"Patty Akers","phone":"407-866-3325","email":null,"territory":null,"raw":"Patty Akers 407-866-3325"},{"name":"Tracy Holloway","phone":"813-886-2457","email":null,"territory":"FL Central","raw":"Tracy Holloway 813-886-2457"},{"name":"Shane Wixted","phone":"917-225-0402","email":null,"territory":"FL South","raw":"Shane Wixted 917-225-0402"},{"name":"Evan Ashby","phone":"256-227-0159","email":null,"territory":"AL/MS","raw":"Evan Ashby 256-227-0159"},{"name":"David Curland","phone":"770-656-0453","email":null,"territory":"GA","raw":"David Curland 770-656-0453"},{"name":"Lucien Bolduc","phone":"860-810-3291","email":null,"territory":"NC/SC","raw":"Lucien Bolduc 860-810-3291"},{"name":"Chris Hodge","phone":"409-233-9806","email":null,"territory":"TN","raw":"Chris Hodge 409-233-9806"}],"suppliers":["Coto","Crouzet","Hirose","Lumex","Orion","TDK","Teledyne"]},{"firm":"Pro Rep Solutions","states":["FL"],"states_raw":"Florida","reps":[{"name":"Bob Hess","phone":"954-854-6746","email":null,"territory":null,"raw":"Bob Hess 954-854-6746"},{"name":"Ben Ebel","phone":"813-526-4224","email":null,"territory":null,"raw":"Ben Ebel 813-526-4224"}],"suppliers":["Abbatron","Alps","CIT","Nisshinbo","Picker","World Products"]},{"firm":"QREP","states":["AL","FL","GA","MS","NC","SC","TN","VA","WV"],"states_raw":"FL, GA, AL, MS, TN, NC, SC, VA, WV","reps":[{"name":"Mike Foresta","phone":"727-539-9730","email":null,"territory":"FL","raw":"Mike Foresta 727-539-9730"},{"name":"Kathy Barefoot","phone":"919-332-3000","email":null,"territory":"VA/WV/NC/SC","raw":"Kathy Barefoot 919-332-3000"},{"name":"Chuck Steely","phone":"919-609-0320","email":null,"territory":"AL/MS/GA/TN","raw":"Chuck Steely 919-609-0320"}],"suppliers":["Adam Tech","Anderson Power"]},{"firm":"SACS","states":["AL","FL","GA","NC","SC"],"states_raw":"FL, GA, AL, NC, SC","reps":[{"name":"Dave Winner","phone":"704-904-6856","email":null,"territory":null,"raw":"Dave Winner 704-904-6856"},{"name":"Kelly Bonucchi","phone":"813-855-6542","email":null,"territory":null,"raw":"Kelly Bonucchi 813-855-6542"},{"name":"Keith Bonucchi","phone":"727-808-6716","email":null,"territory":null,"raw":"Keith Bonucchi 727-808-6716"}],"suppliers":["Amphenol","Amphenol RF","Laird","Triad","ZF"]},{"firm":"Sun Marketing","states":["FL"],"states_raw":"Florida","reps":[{"name":"Pete Klessel","phone":"408-623-4861","email":null,"territory":null,"raw":"Pete Klessel 408-623-4861"}],"suppliers":["Dialight","Knowles","Micron","Omron","Tadiran","Taoglas"]},{"firm":"AEM Group","states":["AL","FL","GA","NC","SC","TN"],"states_raw":"FL, GA, AL, TN, NC, SC","reps":[{"name":"Chase Mears","phone":"910-785-4229","email":null,"territory":null,"raw":"Chase Mears 910-785-4229"}],"suppliers":["Eaton","Fair-Rite","E-Switch","Mechatronics","Ohmite","Song Chuan"]},{"firm":"Pinnacle Marketing","states":["AL","FL","GA","MS","NC","SC","TN"],"states_raw":"FL, GA, AL, MS, TN, NC, SC","reps":[{"name":"Heather Heath","phone":"919-790-5800","email":null,"territory":null,"raw":"Heather Heath 919-790-5800"},{"name":"Cody Tangeman","phone":"864-541-1556","email":null,"territory":"GA","raw":"Cody Tangeman 864-541-1556"},{"name":"Ben Brazelton","phone":"256-937-6323","email":null,"territory":"AL/MS","raw":"Ben Brazelton 256-937-6323"},{"name":"Tim Milejczak","phone":"615-812-5874","email":null,"territory":"TN","raw":"Tim Milejczak 615-812-5874"},{"name":"David McCormick","phone":"864-237-8647","email":null,"territory":"NC/SC","raw":"David McCormick 864-237-8647"}],"suppliers":["Bud Industries","Carlo Gavazzi","Johnson Electric","PUI Audio","Sanyo Denki","American Bright"]},{"firm":"SW Marketing","states":["MS","TN"],"states_raw":"West TN, MS","reps":[{"name":"Nicole Cameron","phone":"713-305-5556","email":null,"territory":null,"raw":"Nicole Cameron 713-305-5556"},{"name":"Larry Keller","phone":"214-534-2171","email":null,"territory":null,"raw":"Larry Keller 214-534-2171"},{"name":"Lupe Lujan","phone":"915-345-5505","email":null,"territory":null,"raw":"Lupe Lujan 915-345-5505"}],"suppliers":["Abbatron","Altech","AZ Displays","Coto"]},{"firm":"GPT Rep","states":["FL"],"states_raw":"Florida","reps":[{"name":"Jon Roddy","phone":"321-287-1900","email":null,"territory":null,"raw":"Jon Roddy 321-287-1900"}],"suppliers":["PUI Audio","APEM"]},{"firm":"FRM","states":["AL","FL","GA","NC","SC","TN","VA"],"states_raw":"FL, GA, AL, TN, NC, SC, VA","reps":[{"name":"Bryan Singleton","phone":"813-927-1116","email":null,"territory":null,"raw":"Bryan Singleton 813-927-1116"}],"suppliers":["Fibox","HellermannTyton","Hammond","Leviton (FL Panhandle only)","nVent","SolaHD"]},{"firm":"PTS","states":["AL","FL","GA","MS","NC","SC","TN"],"states_raw":"FL, GA, AL, MS, TN, NC, SC","reps":[{"name":"Mark Zurawel","phone":"919-720-6972","email":null,"territory":null,"raw":"Mark Zurawel 919-720-6972"},{"name":"Patrick Cordes","phone":"256-318-7155","email":null,"territory":null,"raw":"Patrick Cordes 256-318-7155"},{"name":"Buzz Reynolds","phone":"336-902-5578","email":null,"territory":null,"raw":"Buzz Reynolds 336-902-5578"},{"name":"Angela Nelson","phone":"919-349-5056","email":null,"territory":null,"raw":"Angela Nelson 919-349-5056"}],"suppliers":["ETA","Harwin","Grayhill","RECOM","Sensata","Switchcraft","Triad"]},{"firm":"Sunland Associates","states":["FL"],"states_raw":"Florida","reps":[{"name":"Tony Street","phone":"978-778-8224","email":null,"territory":null,"raw":"Tony Street 978-778-8224"}],"suppliers":["Cinch","Grayhill","Wakefield","Harwin","Schaffner","ETA"]},{"firm":"Moats Yates","states":["FL"],"states_raw":"Florida","reps":[{"name":"Pat O'Brien","phone":null,"email":null,"territory":"Tampa, South West FL (Naples, Fort Meyers, Sarasota), Gainesville, some Melbourne","raw":"Pat O'Brien Tampa, South West FL (Naples, Fort Meyers, Sarasota), Gainesville, some Melbourne"},{"name":"Todd Ashlin","phone":null,"email":null,"territory":"Panhandle and Tampa","raw":"Todd Ashlin Panhandle and Tampa"},{"name":"Roddy Wagner","phone":null,"email":null,"territory":"Orlando, Jacksonville, and Melbourne","raw":"Roddy Wagner Orlando, Jacksonville, and Melbourne"},{"name":"Jeff Yates","phone":null,"email":null,"territory":"Orlando","raw":"Jeff Yates Orlando"},{"name":"Camilo Diaz","phone":null,"email":null,"territory":"South East FL and Latin America","raw":"Camilo Diaz South East FL and Latin America"},{"name":"Chris Moats","phone":null,"email":null,"territory":"South East FL","raw":"Chris Moats South East FL"}],"suppliers":["Ablic","Electroswitch","CW Industries","Oslo Switch","RECOM","Sanyo Denki"]},{"firm":"Aurora Technical Group","states":["AL","GA","MS","NC","SC","TN"],"states_raw":"NC, SC, TN, GA, AL, MS","reps":[{"name":"Aparna Sproelich","phone":"919-987-5311","email":"asproelich@auroragroup.net","territory":null,"raw":"Aparna Sproelich 919-987-5311 asproelich@auroragroup.net"}],"suppliers":["Electroswitch/CW Industries","Chemicon (NC and SC only)","Signal","Sunon"]}]}
+{
+  "updated": "2026-05-21T17:19:01.683545+00:00",
+  "firms": [
+    {
+      "firm": "HHP Associates",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Bill Cabral",
+          "phone": "813-546-3282",
+          "email": null,
+          "territory": null,
+          "raw": "Bill Cabral 813-546-3282"
+        }
+      ],
+      "suppliers": [
+        "Bud Industries",
+        "Bulgin",
+        "Marathon Special Products",
+        "RCD Components",
+        "SolaHD",
+        "Standex Electronics",
+        "Sunon",
+        "United Chemi-Con"
+      ]
+    },
+    {
+      "firm": "Conley & Associates",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Lisa Dietrich",
+          "phone": "407-221-9193",
+          "email": null,
+          "territory": null,
+          "raw": "Lisa Dietrich 407-221-9193"
+        }
+      ],
+      "suppliers": [
+        "Amphenol Industrial",
+        "E-Switch",
+        "Fair-Rite",
+        "MtronPTI",
+        "Panasonic",
+        "Qualtek",
+        "Sensata",
+        "TT Electronics"
+      ]
+    },
+    {
+      "firm": "CBC Electronics",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Chase Caplin",
+          "phone": "727-465-4840",
+          "email": null,
+          "territory": "West FL",
+          "raw": "Chase Caplin 727-465-4840"
+        },
+        {
+          "name": "Shane Recicar",
+          "phone": "407-232-4703",
+          "email": null,
+          "territory": "North/Central FL",
+          "raw": "Shane Recicar 407-232-4703"
+        },
+        {
+          "name": "Troy (via",
+          "phone": null,
+          "email": null,
+          "territory": "South FL",
+          "raw": "Troy (via Chase/Shane)"
+        }
+      ],
+      "suppliers": [
+        "Otto",
+        "Neutrik",
+        "Curtis Industries",
+        "Littelfuse"
+      ]
+    },
+    {
+      "firm": "ANRO Associates",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "MS",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "states_raw": "FL, GA, AL, MS, NC, SC, TN",
+      "reps": [
+        {
+          "name": "Patty Akers",
+          "phone": "407-866-3325",
+          "email": null,
+          "territory": null,
+          "raw": "Patty Akers 407-866-3325"
+        },
+        {
+          "name": "Tracy Holloway",
+          "phone": "813-886-2457",
+          "email": null,
+          "territory": "FL Central",
+          "raw": "Tracy Holloway 813-886-2457"
+        },
+        {
+          "name": "Shane Wixted",
+          "phone": "917-225-0402",
+          "email": null,
+          "territory": "FL South",
+          "raw": "Shane Wixted 917-225-0402"
+        },
+        {
+          "name": "Evan Ashby",
+          "phone": "256-227-0159",
+          "email": null,
+          "territory": "AL/MS",
+          "raw": "Evan Ashby 256-227-0159"
+        },
+        {
+          "name": "David Curland",
+          "phone": "770-656-0453",
+          "email": null,
+          "territory": "GA",
+          "raw": "David Curland 770-656-0453"
+        },
+        {
+          "name": "Lucien Bolduc",
+          "phone": "860-810-3291",
+          "email": null,
+          "territory": "NC/SC",
+          "raw": "Lucien Bolduc 860-810-3291"
+        },
+        {
+          "name": "Chris Hodge",
+          "phone": "409-233-9806",
+          "email": null,
+          "territory": "TN",
+          "raw": "Chris Hodge 409-233-9806"
+        }
+      ],
+      "suppliers": [
+        "Coto",
+        "Crouzet",
+        "Hirose",
+        "Lumex",
+        "Orion",
+        "TDK",
+        "Teledyne"
+      ]
+    },
+    {
+      "firm": "Pro Rep Solutions",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Bob Hess",
+          "phone": "954-854-6746",
+          "email": null,
+          "territory": null,
+          "raw": "Bob Hess 954-854-6746"
+        },
+        {
+          "name": "Ben Ebel",
+          "phone": "813-526-4224",
+          "email": null,
+          "territory": null,
+          "raw": "Ben Ebel 813-526-4224"
+        }
+      ],
+      "suppliers": [
+        "Abbatron",
+        "Alps",
+        "CIT",
+        "Nisshinbo",
+        "Picker",
+        "World Products"
+      ]
+    },
+    {
+      "firm": "QREP",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "MS",
+        "NC",
+        "SC",
+        "TN",
+        "VA",
+        "WV"
+      ],
+      "states_raw": "FL, GA, AL, MS, TN, NC, SC, VA, WV",
+      "reps": [
+        {
+          "name": "Mike Foresta",
+          "phone": "727-539-9730",
+          "email": null,
+          "territory": "FL",
+          "raw": "Mike Foresta 727-539-9730"
+        },
+        {
+          "name": "Kathy Barefoot",
+          "phone": "919-332-3000",
+          "email": null,
+          "territory": "VA/WV/NC/SC",
+          "raw": "Kathy Barefoot 919-332-3000"
+        },
+        {
+          "name": "Chuck Steely",
+          "phone": "919-609-0320",
+          "email": null,
+          "territory": "AL/MS/GA/TN",
+          "raw": "Chuck Steely 919-609-0320"
+        }
+      ],
+      "suppliers": [
+        "Adam Tech",
+        "Anderson Power"
+      ]
+    },
+    {
+      "firm": "SACS",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "NC",
+        "SC"
+      ],
+      "states_raw": "FL, GA, AL, NC, SC",
+      "reps": [
+        {
+          "name": "Dave Winner",
+          "phone": "704-904-6856",
+          "email": null,
+          "territory": null,
+          "raw": "Dave Winner 704-904-6856"
+        },
+        {
+          "name": "Kelly Bonucchi",
+          "phone": "813-855-6542",
+          "email": null,
+          "territory": null,
+          "raw": "Kelly Bonucchi 813-855-6542"
+        },
+        {
+          "name": "Keith Bonucchi",
+          "phone": "727-808-6716",
+          "email": null,
+          "territory": null,
+          "raw": "Keith Bonucchi 727-808-6716"
+        }
+      ],
+      "suppliers": [
+        "Amphenol",
+        "Amphenol RF",
+        "Laird",
+        "Triad",
+        "ZF"
+      ]
+    },
+    {
+      "firm": "Sun Marketing",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Pete Klessel",
+          "phone": "408-623-4861",
+          "email": null,
+          "territory": null,
+          "raw": "Pete Klessel 408-623-4861"
+        }
+      ],
+      "suppliers": [
+        "Dialight",
+        "Knowles",
+        "Micron",
+        "Omron",
+        "Tadiran",
+        "Taoglas"
+      ]
+    },
+    {
+      "firm": "AEM Group",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "states_raw": "FL, GA, AL, TN, NC, SC",
+      "reps": [
+        {
+          "name": "Chase Mears",
+          "phone": "910-785-4229",
+          "email": null,
+          "territory": null,
+          "raw": "Chase Mears 910-785-4229"
+        }
+      ],
+      "suppliers": [
+        "Eaton",
+        "Fair-Rite",
+        "E-Switch",
+        "Mechatronics",
+        "Ohmite",
+        "Song Chuan"
+      ]
+    },
+    {
+      "firm": "Pinnacle Marketing",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "MS",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "states_raw": "FL, GA, AL, MS, TN, NC, SC",
+      "reps": [
+        {
+          "name": "Heather Heath",
+          "phone": "919-790-5800",
+          "email": null,
+          "territory": null,
+          "raw": "Heather Heath 919-790-5800"
+        },
+        {
+          "name": "Cody Tangeman",
+          "phone": "864-541-1556",
+          "email": null,
+          "territory": "GA",
+          "raw": "Cody Tangeman 864-541-1556"
+        },
+        {
+          "name": "Ben Brazelton",
+          "phone": "256-937-6323",
+          "email": null,
+          "territory": "AL/MS",
+          "raw": "Ben Brazelton 256-937-6323"
+        },
+        {
+          "name": "Tim Milejczak",
+          "phone": "615-812-5874",
+          "email": null,
+          "territory": "TN",
+          "raw": "Tim Milejczak 615-812-5874"
+        },
+        {
+          "name": "David McCormick",
+          "phone": "864-237-8647",
+          "email": null,
+          "territory": "NC/SC",
+          "raw": "David McCormick 864-237-8647"
+        }
+      ],
+      "suppliers": [
+        "Bud Industries",
+        "Carlo Gavazzi",
+        "Johnson Electric",
+        "PUI Audio",
+        "Sanyo Denki",
+        "American Bright"
+      ]
+    },
+    {
+      "firm": "SW Marketing",
+      "states": [
+        "MS",
+        "TN"
+      ],
+      "states_raw": "West TN, MS",
+      "reps": [
+        {
+          "name": "Nicole Cameron",
+          "phone": "713-305-5556",
+          "email": null,
+          "territory": null,
+          "raw": "Nicole Cameron 713-305-5556"
+        },
+        {
+          "name": "Larry Keller",
+          "phone": "214-534-2171",
+          "email": null,
+          "territory": null,
+          "raw": "Larry Keller 214-534-2171"
+        },
+        {
+          "name": "Lupe Lujan",
+          "phone": "915-345-5505",
+          "email": null,
+          "territory": null,
+          "raw": "Lupe Lujan 915-345-5505"
+        }
+      ],
+      "suppliers": [
+        "Abbatron",
+        "Altech",
+        "AZ Displays",
+        "Coto"
+      ]
+    },
+    {
+      "firm": "GPT Rep",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Jon Roddy",
+          "phone": "321-287-1900",
+          "email": null,
+          "territory": null,
+          "raw": "Jon Roddy 321-287-1900"
+        }
+      ],
+      "suppliers": [
+        "PUI Audio",
+        "APEM"
+      ]
+    },
+    {
+      "firm": "FRM",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "NC",
+        "SC",
+        "TN",
+        "VA"
+      ],
+      "states_raw": "FL, GA, AL, TN, NC, SC, VA",
+      "reps": [
+        {
+          "name": "Bryan Singleton",
+          "phone": "813-927-1116",
+          "email": null,
+          "territory": null,
+          "raw": "Bryan Singleton 813-927-1116"
+        }
+      ],
+      "suppliers": [
+        "Fibox",
+        "HellermannTyton",
+        "Hammond",
+        "Leviton (FL Panhandle only)",
+        "nVent",
+        "SolaHD"
+      ]
+    },
+    {
+      "firm": "PTS",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "MS",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "states_raw": "FL, GA, AL, MS, TN, NC, SC",
+      "reps": [
+        {
+          "name": "Mark Zurawel",
+          "phone": "919-720-6972",
+          "email": null,
+          "territory": null,
+          "raw": "Mark Zurawel 919-720-6972"
+        },
+        {
+          "name": "Patrick Cordes",
+          "phone": "256-318-7155",
+          "email": null,
+          "territory": null,
+          "raw": "Patrick Cordes 256-318-7155"
+        },
+        {
+          "name": "Buzz Reynolds",
+          "phone": "336-902-5578",
+          "email": null,
+          "territory": null,
+          "raw": "Buzz Reynolds 336-902-5578"
+        },
+        {
+          "name": "Angela Nelson",
+          "phone": "919-349-5056",
+          "email": null,
+          "territory": null,
+          "raw": "Angela Nelson 919-349-5056"
+        }
+      ],
+      "suppliers": [
+        "ETA",
+        "Harwin",
+        "Grayhill",
+        "RECOM",
+        "Sensata",
+        "Switchcraft",
+        "Triad"
+      ]
+    },
+    {
+      "firm": "Sunland Associates",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Tony Street",
+          "phone": "978-778-8224",
+          "email": null,
+          "territory": null,
+          "raw": "Tony Street 978-778-8224"
+        }
+      ],
+      "suppliers": [
+        "Cinch",
+        "Grayhill",
+        "Wakefield",
+        "Harwin",
+        "Schaffner",
+        "ETA"
+      ]
+    },
+    {
+      "firm": "Moats Yates",
+      "states": [
+        "FL"
+      ],
+      "states_raw": "Florida",
+      "reps": [
+        {
+          "name": "Pat O'Brien",
+          "phone": null,
+          "email": null,
+          "territory": "Tampa, South West FL (Naples, Fort Meyers, Sarasota), Gainesville, some Melbourne",
+          "raw": "Pat O'Brien Tampa, South West FL (Naples, Fort Meyers, Sarasota), Gainesville, some Melbourne"
+        },
+        {
+          "name": "Todd Ashlin",
+          "phone": null,
+          "email": null,
+          "territory": "Panhandle and Tampa",
+          "raw": "Todd Ashlin Panhandle and Tampa"
+        },
+        {
+          "name": "Roddy Wagner",
+          "phone": null,
+          "email": null,
+          "territory": "Orlando, Jacksonville, and Melbourne",
+          "raw": "Roddy Wagner Orlando, Jacksonville, and Melbourne"
+        },
+        {
+          "name": "Jeff Yates",
+          "phone": null,
+          "email": null,
+          "territory": "Orlando",
+          "raw": "Jeff Yates Orlando"
+        },
+        {
+          "name": "Camilo Diaz",
+          "phone": null,
+          "email": null,
+          "territory": "South East FL and Latin America",
+          "raw": "Camilo Diaz South East FL and Latin America"
+        },
+        {
+          "name": "Chris Moats",
+          "phone": null,
+          "email": null,
+          "territory": "South East FL",
+          "raw": "Chris Moats South East FL"
+        }
+      ],
+      "suppliers": [
+        "Ablic",
+        "Electroswitch",
+        "CW Industries",
+        "Oslo Switch",
+        "RECOM",
+        "Sanyo Denki"
+      ]
+    },
+    {
+      "firm": "Aurora Technical Group",
+      "states": [
+        "AL",
+        "GA",
+        "MS",
+        "NC",
+        "SC",
+        "TN"
+      ],
+      "states_raw": "NC, SC, TN, GA, AL, MS",
+      "reps": [
+        {
+          "name": "Aparna Sproelich",
+          "phone": "919-987-5311",
+          "email": "asproelich@auroragroup.net",
+          "territory": null,
+          "raw": "Aparna Sproelich 919-987-5311 asproelich@auroragroup.net"
+        }
+      ],
+      "suppliers": [
+        "Electroswitch/CW Industries",
+        "Chemicon (NC and SC only)",
+        "Signal",
+        "Sunon"
+      ]
+    }
+  ]
+}
