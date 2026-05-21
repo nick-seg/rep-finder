@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rep Finder — Master Electronics Southeast</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:      #0057a8;
+      --blue-dark: #003d7a;
+      --blue-light:#e8f0fb;
+      --accent:    #e87722;
+      --gray-100:  #f5f7fa;
+      --gray-200:  #e9ecef;
+      --gray-400:  #adb5bd;
+      --gray-700:  #495057;
+      --text:      #212529;
+      --radius:    10px;
+      --shadow:    0 2px 12px rgba(0,0,0,.10);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--gray-100);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--blue);
+      color: #fff;
+      padding: 22px 24px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    }
+    header svg { flex-shrink: 0; }
+    header h1 { font-size: 1.45rem; font-weight: 700; letter-spacing: -.3px; }
+    header p  { font-size: .82rem; opacity: .8; margin-top: 2px; }
+
+    main { max-width: 780px; margin: 0 auto; padding: 28px 16px 60px; }
+
+    .search-card {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px 24px 20px;
+      margin-bottom: 28px;
+    }
+    .search-card h2 {
+      font-size: .85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--blue);
+      margin-bottom: 16px;
+    }
+
+    .fields { display: flex; gap: 12px; flex-wrap: wrap; }
+    .field { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 200px; }
+    label {
+      font-size: .78rem;
+      font-weight: 600;
+      color: var(--gray-700);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+    input[type="text"], select {
+      border: 1.5px solid var(--gray-200);
+      border-radius: 7px;
+      padding: 10px 13px;
+      font-size: .95rem;
+      color: var(--text);
+      background: var(--gray-100);
+      outline: none;
+      transition: border-color .15s, box-shadow .15s;
+      width: 100%;
+    }
+    input[type="text"]:focus, select:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(0,87,168,.12);
+      background: #fff;
+    }
+
+    .btn-row { margin-top: 16px; display: flex; gap: 10px; align-items: center; }
+    button {
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      padding: 11px 26px;
+      font-size: .95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s, transform .1s;
+    }
+    button:hover  { background: var(--blue-dark); }
+    button:active { transform: scale(.97); }
+    button.clear {
+      background: transparent;
+      color: var(--gray-700);
+      border: 1.5px solid var(--gray-200);
+      padding: 10px 18px;
+    }
+    button.clear:hover { background: var(--gray-100); }
+
+    #results-header {
+      font-size: .82rem;
+      color: var(--gray-700);
+      margin-bottom: 12px;
+      min-height: 20px;
+    }
+    #results-header strong { color: var(--blue); }
+
+    .result-card {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+      overflow: hidden;
+      border-left: 4px solid var(--blue);
+      animation: fadeIn .2s ease;
+    }
+    @keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+
+    .card-header {
+      background: var(--blue-light);
+      padding: 13px 18px 11px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .card-header h3 { font-size: 1.05rem; font-weight: 700; color: var(--blue-dark); }
+    .states-badge {
+      font-size: .72rem;
+      font-weight: 600;
+      color: var(--gray-700);
+      background: var(--gray-200);
+      border-radius: 20px;
+      padding: 2px 9px;
+    }
+
+    .card-body { padding: 14px 18px 16px; }
+
+    .section-label {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--gray-400);
+      margin-bottom: 8px;
+    }
+    .rep-list { list-style: none; display: flex; flex-direction: column; gap: 7px; margin-bottom: 14px; }
+    .rep-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      font-size: .93rem;
+    }
+    .rep-name { font-weight: 600; }
+    .rep-phone a { color: var(--blue); text-decoration: none; font-weight: 500; }
+    .rep-phone a:hover { text-decoration: underline; }
+    .rep-email a { color: var(--blue); text-decoration: none; font-size: .85rem; }
+    .rep-territory {
+      font-size: .78rem;
+      color: #fff;
+      background: var(--blue);
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-weight: 500;
+    }
+    .rep-territory.highlight { background: var(--accent); }
+
+    .matched-suppliers { display: flex; flex-wrap: wrap; gap: 5px; }
+    .supplier-chip {
+      font-size: .76rem;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-weight: 500;
+      background: #e8f7ee;
+      color: #1a6b3a;
+      border: 1px solid #b6dfc5;
+    }
+    .supplier-chip.matched {
+      background: #fff3e0;
+      color: #a94a00;
+      border-color: #f5c49a;
+    }
+
+    .empty-state {
+      text-align: center;
+      color: var(--gray-400);
+      padding: 40px 0;
+      font-size: .95rem;
+    }
+    .empty-state .icon { font-size: 2.5rem; margin-bottom: 10px; }
+
+    #updated {
+      text-align: right;
+      font-size: .72rem;
+      color: var(--gray-400);
+      margin-top: 10px;
+    }
+
+    @media (max-width: 520px) {
+      header h1 { font-size: 1.2rem; }
+      .fields { flex-direction: column; }
+      .card-header { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+    <circle cx="17" cy="17" r="17" fill="rgba(255,255,255,.15)"/>
+    <path d="M9 12h16M9 17h10M9 22h13" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  </svg>
+  <div>
+    <h1>Rep Finder</h1>
+    <p>Master Electronics &mdash; Southeast Region</p>
+  </div>
+</header>
+
+<main>
+  <div class="search-card">
+    <h2>Find your rep</h2>
+    <div class="fields">
+      <div class="field">
+        <label for="supplier-input">Supplier</label>
+        <input
+          type="text"
+          id="supplier-input"
+          list="supplier-datalist"
+          placeholder="e.g. Panasonic, TDK, Hirose&hellip;"
+          autocomplete="off"
+        />
+        <datalist id="supplier-datalist"></datalist>
+      </div>
+      <div class="field">
+        <label for="state-select">State</label>
+        <select id="state-select">
+          <option value="">All States</option>
+          <option value="AL">Alabama</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="KY">Kentucky</option>
+          <option value="MS">Mississippi</option>
+          <option value="NC">North Carolina</option>
+          <option value="SC">South Carolina</option>
+          <option value="TN">Tennessee</option>
+          <option value="VA">Virginia</option>
+          <option value="WV">West Virginia</option>
+        </select>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button onclick="doSearch()">&#128269; Find Rep</button>
+      <button class="clear" onclick="clearSearch()">Clear</button>
+    </div>
+  </div>
+
+  <div id="results-header"></div>
+  <div id="results"></div>
+  <div id="updated"></div>
+</main>
+
+<script>
+  let repData = [];
+
+  const STATE_NAMES = {
+    AL:'Alabama', FL:'Florida', GA:'Georgia', KY:'Kentucky',
+    MS:'Mississippi', NC:'North Carolina', SC:'South Carolina',
+    TN:'Tennessee', VA:'Virginia', WV:'West Virginia'
+  };
+
+  fetch('data.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      repData = data.firms || data;
+      populateSupplierList();
+      if (data.updated) {
+        document.getElementById('updated').textContent =
+          'Data last updated: ' + new Date(data.updated).toLocaleDateString('en-US', {
+            month:'long', day:'numeric', year:'numeric'
+          });
+      }
+    })
+    .catch(() => {
+      document.getElementById('results').innerHTML =
+        '<div class="empty-state"><div class="icon">&#9888;&#65039;</div>Could not load rep data. Please try again shortly.</div>';
+    });
+
+  function populateSupplierList() {
+    const all = new Set();
+    repData.forEach(f => f.suppliers.forEach(s => all.add(s)));
+    const dl = document.getElementById('supplier-datalist');
+    [...all].sort().forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      dl.appendChild(opt);
+    });
+  }
+
+  function doSearch() {
+    const query = document.getElementById('supplier-input').value.trim().toLowerCase();
+    const state = document.getElementById('state-select').value;
+
+    if (!query && !state) {
+      document.getElementById('results-header').innerHTML = '';
+      document.getElementById('results').innerHTML =
+        '<div class="empty-state"><div class="icon">&#128270;</div>Enter a supplier name, select a state, or both.</div>';
+      return;
+    }
+
+    let results = repData.map(firm => {
+      if (state && !firm.states.includes(state)) return null;
+      let matchedSuppliers = [];
+      if (query) {
+        matchedSuppliers = firm.suppliers.filter(s => s.toLowerCase().includes(query));
+        if (matchedSuppliers.length === 0) return null;
+      }
+      return { firm, matchedSuppliers };
+    }).filter(Boolean);
+
+    renderResults(results, query, state);
+  }
+
+  document.getElementById('supplier-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') doSearch();
+  });
+  document.getElementById('state-select').addEventListener('change', () => {
+    if (document.getElementById('supplier-input').value.trim() || document.getElementById('state-select').value) doSearch();
+  });
+
+  function clearSearch() {
+    document.getElementById('supplier-input').value = '';
+    document.getElementById('state-select').value = '';
+    document.getElementById('results-header').innerHTML = '';
+    document.getElementById('results').innerHTML = '';
+  }
+
+  function renderResults(results, query, state) {
+    const header = document.getElementById('results-header');
+    const container = document.getElementById('results');
+
+    if (results.length === 0) {
+      header.innerHTML = '';
+      container.innerHTML = '<div class="empty-state"><div class="icon">&#128566;</div>No reps found' +
+        (query ? ' for <strong>' + esc(query) + '</strong>' : '') +
+        (state ? ' in <strong>' + esc(STATE_NAMES[state] || state) + '</strong>' : '') +
+        '.<br><small style="color:#adb5bd;margin-top:8px;display:block">Try a different spelling or remove a filter.</small></div>';
+      return;
+    }
+
+    const parts = [];
+    if (query) parts.push('<strong>"' + esc(query) + '"</strong>');
+    if (state) parts.push('<strong>' + esc(STATE_NAMES[state] || state) + '</strong>');
+    header.innerHTML = results.length + ' rep group' + (results.length !== 1 ? 's' : '') + ' found' +
+      (parts.length ? ' for ' + parts.join(' in ') : '');
+
+    container.innerHTML = results.map(({ firm, matchedSuppliers }) =>
+      renderCard(firm, matchedSuppliers, state)
+    ).join('');
+  }
+
+  function renderCard(firm, matchedSuppliers, selectedState) {
+    const repsHtml = firm.reps.map(rep => {
+      let isHighlighted = false;
+      if (selectedState && rep.territory) {
+        const t = rep.territory.toUpperCase();
+        isHighlighted = t.includes(selectedState) ||
+          (STATE_NAMES[selectedState] && t.includes(STATE_NAMES[selectedState].toUpperCase()));
+      }
+      const territoryHtml = rep.territory
+        ? '<span class="rep-territory' + (isHighlighted ? ' highlight' : '') + '">' + esc(rep.territory) + '</span>'
+        : '';
+      const phoneHtml = rep.phone
+        ? '<span class="rep-phone"><a href="tel:' + rep.phone + '">' + esc(rep.phone) + '</a></span>'
+        : '';
+      const emailHtml = rep.email
+        ? '<span class="rep-email"><a href="mailto:' + rep.email + '">' + esc(rep.email) + '</a></span>'
+        : '';
+      return '<li class="rep-item">' + territoryHtml + '<span class="rep-name">' + esc(rep.name) + '</span>' + phoneHtml + emailHtml + '</li>';
+    }).join('');
+
+    const suppliersHtml = firm.suppliers.map(s => {
+      const isMatch = matchedSuppliers.includes(s);
+      return '<span class="supplier-chip' + (isMatch ? ' matched' : '') + '">' + esc(s) + '</span>';
+    }).join('');
+
+    return '<div class="result-card"><div class="card-header"><h3>' + esc(firm.firm) + '</h3><span class="states-badge">' + esc(firm.states_raw) + '</span></div><div class="card-body"><div class="section-label">Reps</div><ul class="rep-list">' + repsHtml + '</ul><div class="section-label">Suppliers</div><div class="matched-suppliers">' + suppliersHtml + '</div></div></div>';
+  }
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>
